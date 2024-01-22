@@ -5,8 +5,8 @@ module.exports = (phase) => {
   if(phase === PHASE_DEVELOPMENT_SERVER) {
     return {
       env: {
-        mongodb_username: 'Nykzak',
-        mongodb_password: 'sB39DTMUNdRzKzgf',
+        mongodb_username: 'Grey',
+        mongodb_password: 'Gewaeg2OixfJEVit',
         mongodb_clustername: '@cluster0',
       },
     };
