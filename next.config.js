@@ -5,8 +5,8 @@ module.exports = (phase) => {
   if(phase === PHASE_DEVELOPMENT_SERVER) {
     return {
       env: {
-        mongodb_username: 'Nykzak',
-        mongodb_password: 'f7KohknrOtn3mUP5',
+        mongodb_username: 'vercel-admin-user',
+        mongodb_password: 'L1g9cDyqz3hhkrkA',
         mongodb_clustername: '@cluster0',
       },
     };
