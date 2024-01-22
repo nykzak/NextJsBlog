@@ -17,8 +17,8 @@ async function handler(req, res) {
         };
 
         let client;
-
-        const connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}${process.env.mongodb_clustername}.cd5dk04.mongodb.net/?retryWrites=true&w=majority`;
+          //mongodb+srv://<username>:<password>@cluster0.cd5dk04.mongodb.net/?retryWrites=true&w=majority
+        const connectionString = 'mongodb+srv://vercel-admin-user:L1g9cDyqz3hhkrkA@cluster0.cd5dk04.mongodb.net/?retryWrites=true&w=majority';
 
         try {
         client = await MongoClient.connect(connectionString);
